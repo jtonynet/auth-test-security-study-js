@@ -71,4 +71,6 @@ Thumbs.db
 
 # ignore yarn.lock
 yarn.lock
-*package-lock.json
+**/yarn.lock
+package-lock.json
+**/package-lock.json

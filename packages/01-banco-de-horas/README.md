@@ -21,6 +21,8 @@ npm install
 npx eslint index.js
 ```
 
+---
+
 <details>
   <summary>Configurando eslint em projetos novos</summary>
 
@@ -40,4 +42,15 @@ npx eslint --init
 > JSON
 ```
 </details>
-<br/>
+
+
+<details>
+  <summary>Configurando Jest em projetos novos</summary>
+
+```
+npm instal --save-exact jest@28.1.0 --save-dev
+```
+
+</details>
+
+<!-- npm install --force -->
