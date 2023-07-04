@@ -9,17 +9,23 @@
 
 ### :computer: Instalando e configurando
 
-Partindo do suposto que existe um ambiente Node.js `v18.16.0` ou superior funcional em sua máquina
+Partindo do suposto que existe um ambiente [Node.js `v18.16.0`](https://nodejs.org/en) ou superior funcional em sua máquina
 
-- Instalando
+- Instalando:
 ```
 npm install
 ```
 
-- Rodando
+- Rodando:
 ```
-npx eslint index.js
+npx eslint index.js --fix
 ```
+
+- Testando:
+```
+npm run test
+```
+
 
 ---
 
