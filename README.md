@@ -21,7 +21,7 @@
 ---
 <a id="sobre"></a>
 ## :green_book: Sobre
-Projeto de estudo baseado na trilha[Autenticação, testes e segurança em Node.js](https://cursos.alura.com.br/formacao-avancando-nodejs) e em trilhas de atualização.
+Projeto de estudo baseado na trilha [Autenticação, testes e segurança em Node.js](https://cursos.alura.com.br/formacao-avancando-nodejs) e em trilhas de atualização.
 
 [:arrow_heading_up: voltar](#indice)
 
