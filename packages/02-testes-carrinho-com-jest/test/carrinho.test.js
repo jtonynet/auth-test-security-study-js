@@ -44,8 +44,8 @@ describe('Testes do carrinho', () => {
     expect(carrinho.frete).toBe(10);
   });
 
-  it('Deve finalizar as compras', ()=>{
-    const item = new Item('Banana' ,2 , 5);
+  it('Deve finalizar as compras', () => {
+    const item = new Item('Banana', 2, 5);
     const item2 = new Item('Mel', 1, 5);
     const carrinho = new Carrinho();
     carrinho.adiciona(item);
@@ -55,7 +55,7 @@ describe('Testes do carrinho', () => {
     expect(carrinho.finalizaCompra()).toStrictEqual({
       subtotal: 15,
       frete: 10,
-      total:25
+      total: 25,
     });
   });
 });
