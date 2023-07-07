@@ -1,4 +1,7 @@
 import request from 'supertest';
+import {
+  describe, expect, it, test, jest,
+} from '@jest/globals';
 import app from '../../app.js';
 
 let server;
@@ -55,13 +58,22 @@ describe('GET em /editoras/id', () => {
 });
 
 describe('PUT em /editoras/id', () => {
-  it('Deve alterar o campo nome', async () => {
-    await request(app)
+  test.each([
+    ['nome', { nome: 'Casa do Codigo' }],
+    ['cidade', { cidade: 'SP' }],
+    ['email', { email: 'cdc@cdc.com' }],
+  ])('Deve alterar o campo %s', async (chave, param) => {
+    const requisicao = { request };
+    const spy = jest.spyOn(requisicao, 'request');
+
+    await requisicao.request(app)
       .put(`/editoras/${idResposta}`)
-      .send({nome:'Casa do Codigo'})
+      .send(param)
       .expect(204);
+
+    expect(spy).toHaveBeenCalled();
   });
-})
+});
 
 describe('Delete em /editoras', () => {
   it('Deletar o recurso adicionado', async () => {
