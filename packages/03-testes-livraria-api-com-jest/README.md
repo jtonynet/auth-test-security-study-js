@@ -1,7 +1,22 @@
-# API Livraria
-## Fork originalmente sem testes, com finalidade de estudo. [Original aqui](https://github.com/alura-cursos/2495_node_testes/tree/aula-4-pre)
+# Testes em Node.js - Módulo III
+[<img src="../../docs/images/icons/nodedotjs.svg" width="25px" height="25px" title="Node.js" alt="Node.js"> <img src="../../docs/images/icons/npm.svg" width="25px" height="25px" alt="npm" title="npm"> <img src="../../docs/images/icons/express.svg" width="25px" height="25px" alt="Express" title="Express"> <img src="../../docs/images/icons/eslint.svg" width="25px" height="25px" alt="Eslint" title="Eslint"> <img src="../../docs/images/icons/jest.svg" width="25px" height="25px" alt="Jest" title="Jest"> <img src="../../docs/images/icons/github.svg" width="25px" height="25px" alt="GitHub" title="GitHub"> <img src="../../docs/images/icons/sqlite.svg" width="25px" height="25px" alt="SQlite" title="SQlite"> <img src="../../docs/images/icons/nx.svg" width="25px" height="25px" alt="NX" title="NX"> <img src="../../docs/images/icons/visualstudiocode.svg" width="25px" height="25px" alt="vscode" title="vscode">](#testes-em-Node.js)
 
-![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN)
+![Badge Status](https://img.shields.io/badge/STATUS_DO_CURSO-MÓDULO_EM_ANDAMENTO-green)
+
+:construction: Projeto em construção :construction:
+
+## :unlock: Testes em Livraria API
+---
+### :books: Projeto Com Finalidade Educacional
+Projeto faz parte de curso [Testes com Jest](https://www.alura.com.br/curso-online-nodejs-testes-unitarios-integracao) e seu repositório original pode ser [encontrado aqui](https://github.com/alura-cursos/2495_node_testes/tree/aula-4-pre) e tem a finalidade de prover lógica de negócio para termos foco nesse momento apenas em nossa suite de testes portanto foi trazido direto de seu repo original.
+
+Fork de estrutura de curso anterior. Foco nos testes.
+
+Um novo projeto mais elaborado usando esses e outros conhecimentos está a caminho, [venda de tickets de cinema](https://github.com/jtonynet/cine-ticket-study)
+
+O restante do README pertence ao projeto "forkado"
+
+---
 
 ## Resumo do projeto
 

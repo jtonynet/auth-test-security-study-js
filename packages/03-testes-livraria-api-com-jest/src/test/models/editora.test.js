@@ -14,4 +14,10 @@ describe('Testando o modelo Editora', () => {
       expect.objectContaining(objetoEditora),
     );
   });
+
+  it('Deve salvar editora no banco de dados', () => {
+    const editora = new Editora(objetoEditora);
+
+    editora.salvar();
+  });
 });
