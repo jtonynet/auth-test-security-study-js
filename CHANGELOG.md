@@ -8,10 +8,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 ### Added
 
+## [0.0.3] - 2023-07-07
+### Added
+- Refactor no nome dos módulos referentes ao curso de testes da trilha
+- Iniciado módulo 02-testes-carrinho-com-jest
+- Finalizado módulo 02-testes-carrinho-com-jest
+
 ## [0.0.2] - 2023-07-04
 ### Added
 
-- 100 de coverage para o package 01-testes-com-jest
+- 100% de coverage para o package 01-testes-folha-de-pagamento-com-jest
 
 ## [0.0.1] - 2023-07-03
 ### Added
@@ -21,5 +27,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Ainda não dockerizado
 
 
+[0.0.3]: https://github.com/jtonynet/js-auth-test-security-course/compare/v0.0.2...v0.0.3
 [0.0.2]: https://github.com/jtonynet/js-auth-test-security-course/compare/v0.0.1...v0.0.2
 [0.0.1]: https://github.com/jtonynet/js-auth-test-security-course/releases/tag/v0.0.1
