@@ -26,7 +26,7 @@ npm install
 
 - Rodando:
 ```
-npx eslint index.js --fix
+npm run dev
 ```
 
 - Testando:
@@ -34,7 +34,10 @@ npx eslint index.js --fix
 npm run test
 ```
 
-
+- Linter:
+```
+npx eslint ${path_do_arquivo}.js --fix
+```
 ---
 
 <details>

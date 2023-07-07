@@ -13,7 +13,7 @@ Um novo projeto mais elaborado usando esses e outros conhecimentos está a camin
 
 ---
 
-### :computer: Instalando e configurando
+## :computer: Instalando e configurando
 
 Partindo do suposto que existe um ambiente [Node.js `v18.16.0`](https://nodejs.org/en) ou superior funcional em sua máquina
 
@@ -24,7 +24,7 @@ npm install
 
 - Rodando:
 ```
-npx eslint index.js --fix
+npm run dev
 ```
 
 - Testando:
@@ -32,7 +32,10 @@ npx eslint index.js --fix
 npm run test
 ```
 
-
+- Linter:
+```
+npx eslint ${path_do_arquivo}.js --fix
+```
 ---
 
 <details>

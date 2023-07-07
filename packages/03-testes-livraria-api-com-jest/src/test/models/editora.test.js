@@ -1,4 +1,6 @@
-import { expect } from '@jest/globals';
+import {
+  describe, expect, it, jest,
+} from '@jest/globals';
 import Editora from '../../models/editora.js';
 
 describe('Testando o modelo Editora', () => {
@@ -16,6 +18,7 @@ describe('Testando o modelo Editora', () => {
     );
   });
 
+  // 'skipado por ser implementação antiga com "then"!'
   it.skip('Deve salvar editora no banco de dados', () => {
     const editora = new Editora(objetoEditora);
 
@@ -24,7 +27,8 @@ describe('Testando o modelo Editora', () => {
     });
   });
 
-  it('Deve salvar no DB usando a sintaxe moderna', async () => {
+  // 'skippado por fazer alterações em um banco "real"!'
+  it.skip('Deve salvar no DB usando a sintaxe moderna', async () => {
     const editora = new Editora(objetoEditora);
 
     const dados = await editora.salvar();
@@ -37,6 +41,30 @@ describe('Testando o modelo Editora', () => {
         ...objetoEditora,
         created_at: expect.any(String),
         updated_at: expect.any(String),
+      }),
+    );
+  });
+
+  it('Deve fazer uma chamada simulada ao banco de dados', () => {
+    const editora = new Editora(objetoEditora);
+
+    editora.salvar = jest.fn().mockReturnValue({
+      id: 10,
+      nome: 'CDC',
+      cidade: 'Sao Paulo',
+      email: 'c@c.com',
+      created_at: '2023-10-1',
+      update_at: '2023-10-1',
+    });
+
+    const retorno = editora.salvar();
+
+    expect(retorno).toEqual(
+      expect.objectContaining({
+        id: expect.any(Number),
+        ...objetoEditora,
+        created_at: expect.any(String),
+        update_at: expect.any(String),
       }),
     );
   });
