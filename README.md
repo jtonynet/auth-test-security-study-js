@@ -13,12 +13,18 @@
 ## :arrow_heading_up: Índice
 <!--ts-->
 - [Estudo de Autenticação, testes e segurança em Node.js](#estudo-de-autenticação-testes-e-segurança-em-nodejs)
- :arrow_heading_up:[Índice](#arrow_heading_up-índice)
- :green_book:[Sobre](#green_book-sobre)
- :hammer:[Ferramentas](#hammer-ferramentas)
- :clap: [Boas Práticas](#clap-boas-práticas)
- :1234: [Versões](#1234-versões)
- :robot: [Uso de IA:](#robot-uso-de-ia)
+  - [:arrow\_heading\_up: Índice](#arrow_heading_up-índice)
+  - [:green\_book: Sobre](#green_book-sobre)
+  - [:hammer: Ferramentas](#hammer-ferramentas)
+  - [:clap: Boas Práticas](#clap-boas-práticas)
+  - [:1234: Versões](#1234-versões)
+    - [:robot: Uso de IA:](#robot-uso-de-ia)
+1. :arrow_heading_up:[Índice](#arrow_heading_up-índice)
+2. :green_book:[Sobre](#green_book-sobre)
+3. :hammer:[Ferramentas](#hammer-ferramentas)
+4. :clap: [Boas Práticas](#clap-boas-práticas)
+5. :1234: [Versões](#1234-versões)
+6. :robot: [Uso de IA:](#robot-uso-de-ia)
 
 <!--te-->
 ---
