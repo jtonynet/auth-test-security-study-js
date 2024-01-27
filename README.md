@@ -12,13 +12,7 @@
 <a id="indice"></a>
 ## :arrow_heading_up: Índice
 <!--ts-->
-- [Estudo de Autenticação, testes e segurança em Node.js](#estudo-de-autenticação-testes-e-segurança-em-nodejs)
-  - [:arrow\_heading\_up: Índice](#arrow_heading_up-índice)
-  - [:green\_book: Sobre](#green_book-sobre)
-  - [:hammer: Ferramentas](#hammer-ferramentas)
-  - [:clap: Boas Práticas](#clap-boas-práticas)
-  - [:1234: Versões](#1234-versões)
-    - [:robot: Uso de IA:](#robot-uso-de-ia)
+[Estudo de Autenticação, testes e segurança em Node.js](#estudo-de-autenticação-testes-e-segurança-em-nodejs)
 1. :arrow_heading_up:[Índice](#arrow_heading_up-índice)
 2. :green_book:[Sobre](#green_book-sobre)
 3. :hammer:[Ferramentas](#hammer-ferramentas)
