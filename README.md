@@ -13,11 +13,12 @@
 ## :arrow_heading_up: Índice
 <!--ts-->
 - [Estudo de Autenticação, testes e segurança em Node.js](#estudo-de-autenticação-testes-e-segurança-em-nodejs)
-  - [:arrow\_heading\_up: Índice](#arrow_heading_up-índice)
-  - [:green\_book: Sobre](#green_book-sobre)
-  - [:hammer: Ferramentas](#hammer-ferramentas)
-  - [:clap: Boas Práticas](#clap-boas-práticas)
-  - [:1234: Versões](#1234-versões)
+ :arrow_heading_up:[Índice](#arrow_heading_up-índice)
+ :green_book:[Sobre](#green_book-sobre)
+ :hammer:[Ferramentas](#hammer-ferramentas)
+ :clap: [Boas Práticas](#clap-boas-práticas)
+ :1234: [Versões](#1234-versões)
+ :robot: [Uso de IA:](#robot-uso-de-ia)
 
 <!--te-->
 ---
@@ -66,3 +67,30 @@ Para obter mais informações, consulte o [Histórico de Versões](./CHANGELOG.m
 
 [:arrow_heading_up: voltar](#indice)
 
+---
+
+<a id="ia"></a>
+### :robot: Uso de IA:
+
+O cabeçalho desta página foi criado com a fonte [cinema-st](https://www.dafont.com/pt/cinema-st.font?text=CineTicket&psize=l) e o auxílio de inteligência artificial e um mínimo de 
+retoque e construção no Gimp [<img src="./docs/images/icons/gimp.svg" width="30" height="30" title="Gimp" alt="Logo do Gimp" />](https://www.gimp.org/)
+
+
+__Foram utilizados os seguintes prompts para sua criação no [Bing IA:](https://www.bing.com/images/create/)__
+
+
+<details>
+  <summary><b>Segurança</b></summary>
+<i>"Segurança negro em estilo cartoon de oculos escuros e terno segurando uma chave em uma mao e um notebook na outra, fundo branco chapado para facil remocao"<b>(sic)</b></i>
+</details>
+
+<br/>
+
+
+IA também é utilizada em minhas pesquisas e estudos como ferramenta de apoio; no entanto, __artes e desenvolvimento são, sobretudo, atividades criativas humanas.__
+
+Contrate artistas para projetos comerciais ou mais elaborados e Aprenda Engenhosidade!
+
+[:arrow_heading_up: voltar](#indice)
+
+---
