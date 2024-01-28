@@ -32,7 +32,7 @@
 ## :green_book: Sobre
 Projeto de estudo baseado na trilha [Autenticação, testes e segurança em Node.js](https://cursos.alura.com.br/formacao-avancando-nodejs) e em trilhas de atualização. Como estudo de monorepo, separei os módulos do curso dentro da pasta `packages`. Seguem módulos finalizados ate o momento:
 - [Testes Folha de Pagamento](./packages/01-testes-folha-de-pagamento-com-jest)
-- [Testes Carrinho de compra](./packages/02-testes-carrinho-com-jest)
+- [Testes Carrinho de Compra](./packages/02-testes-carrinho-com-jest)
 - [Testes Livraria](./packages/03-testes-livraria-api-com-jest)
 - [API Estoque](./packages/05-seguranca-api-estoque)
 
