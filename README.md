@@ -1,4 +1,4 @@
-# Estudo de Autenticação, testes e segurança em Node.js
+# Autenticação, testes e segurança em Node.js
 
 <img src="./docs/images/layout/header.png">
 
